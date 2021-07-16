@@ -1,0 +1,11 @@
+// C++ program to find the ASCII value of a character
+
+#include<iostreamh.h>
+using namespace std;
+
+int main()
+{
+	char ch;
+	cin >> ch;
+	cout << “ASCII value of ” << ch << ” is ” << int(ch);  // Prints the ASCII value of the input character
+}
