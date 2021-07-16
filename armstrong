@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+int num,temp,rem,res=0,n=0;
+    cin>>num;
+    temp=num;
+    while(temp!=0){
+        temp=temp/10;
+        ++n;
+    }
+    temp=num;
+     while(temp!=0){
+rem=temp%10;
+         res=res+pow(rem,n);
+         temp=temp/10;
+}   
+        if(num==res){
+            cout<<"Armstrong"<<endl;
+        }
+    else{
+cout<<"NOT"<<endl;
+    }
+        return 0;
+    }
