@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+int main()
+{
+int n,rem;
+cin>>n;
+    int rev=0;
+    int no=n;
+    while(n!=0)
+    {
+        rem=n%10;
+        rev=rev*10+rem;
+        n/=10;
+        
+    }
+    if(no==rev)
+    {
+cout<<"polindrome"<<endl;
+    }
+    else{
+cout<<"not a polindrome"<<endl;
+    }
+    return 0;
+}
