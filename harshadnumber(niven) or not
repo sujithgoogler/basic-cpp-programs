@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n,sum;
+    cin>>n;
+    int count=0;
+    sum=0;
+    int temp=n;
+    while(n){
+        
+        count+=n%10;
+        n/=10;
+    }
+    if(temp%count==0)
+    {
+cout<<"harshad number"<<endl;
+    }
+    else
+    {
+        cout<<"not a harshad"<<endl;
+    }
+    return 0;
+}
