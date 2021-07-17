@@ -1,0 +1,10 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+int base;
+cin>>base;
+int exp;
+cin>>exp;
+cout<<pow(base,exp)<<endl;
+    return 0;
+}
