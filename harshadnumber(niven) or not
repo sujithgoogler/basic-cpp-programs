@@ -1,10 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int n,sum;
+    int n;
     cin>>n;
     int count=0;
-    sum=0;
     int temp=n;
     while(n){
         
